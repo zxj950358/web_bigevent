@@ -1,0 +1,69 @@
+.layui-footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+.layui-body {
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+a{
+    transition: none !important;
+}
+
+.userinfo{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    /* 不能让用户选中 */
+    user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-side-scroll .userinfo {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.layui-nav-img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.text-avatar {
+    /* 行内块级元素，让在同一行显示 */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #009688;
+    line-height: 40px;
+    text-align: center;
+    /* 让两个图片内联块中部对齐/另外一种方式：position:relative,top:4px */
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+}
